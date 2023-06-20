@@ -27,9 +27,9 @@ Make sure you have Xcode installed on your macOS machine.
 
 In the project directory, run the following command to start the iOS app:
 
-    ```bash
-    npx react-native run-ios
-    
+     ```shell
+     npx react-native run-ios
+     
 This will launch the iOS simulator and install the app.    
 
 4. Running on Android
@@ -39,7 +39,7 @@ Open the Android emulator through Android Studio or start a physical Android dev
 
 In the project directory, run the following command to start the Android app:
 
-    ```bash
+    ```shell
     npx react-native run-android
 
 This will install the app on the emulator or connected device.
@@ -50,7 +50,7 @@ To run the tests for the project, follow these steps:
 Open a terminal and navigate to the project directory.
 
 Run the tests using the following command:
-    ```bash
+    ```shell
     npm test
 
 
