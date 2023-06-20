@@ -18,6 +18,7 @@ Follow the steps below to run the project on iOS and Android:
    git clone https://github.com/your-username/your-repo.git
 
 2. Install the dependencies by navigating to the project directory and running:
+
    ```bash
    cd your-repo
    npm install
@@ -27,7 +28,6 @@ Make sure you have Xcode installed on your macOS machine.
 
 In the project directory, run the following command to start the iOS app:
 
-     ```shell
      npx react-native run-ios
      
 This will launch the iOS simulator and install the app.    
@@ -39,7 +39,6 @@ Open the Android emulator through Android Studio or start a physical Android dev
 
 In the project directory, run the following command to start the Android app:
 
-    ```shell
     npx react-native run-android
 
 This will install the app on the emulator or connected device.
@@ -50,7 +49,7 @@ To run the tests for the project, follow these steps:
 Open a terminal and navigate to the project directory.
 
 Run the tests using the following command:
-    ```shell
+
     npm test
 
 
